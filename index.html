@@ -1,1 +1,92 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroturismo Paraná - Conheça nossa força</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">Agro<span>PR</span></div>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#sobre">Sobre</a>
+            </nav>
+        </div>
+        <div class="hero" id="inicio">
+            <h1>Descubra o Potencial do Agro Paranaense</h1>
+            <p>Explore fazendas históricas, rotas de café, cooperativas e a tecnologia do campo.</p>
+            <a href="#destinos" class="btn-principal">Explorar Locais</a>
+        </div>
+    </header>
+
+    <main id="destinos">
+        <section class="section-title">
+            <h2>Locais para Visitar</h2>
+            <p>Filtre por categoria e planeje seu próximo roteiro de conhecimento e lazer.</p>
+            
+            <div class="filtros">
+                <button class="btn-filtro active" data-categoria="todos">Todos</button>
+                <button class="btn-filtro" data-categoria="tecnologia">Tecnologia & Eventos</button>
+                <button class="btn-filtro" data-categoria="historico">Histórico & Rotas</button>
+                <button class="btn-filtro" data-categoria="natureza">Natureza & Cooperativas</button>
+            </div>
+        </section>
+
+        <section class="grid-destinos">
+            
+            <div class="card" data-categoria="tecnologia">
+                <div class="card-img pic-showcase-1"></div>
+                <div class="card-conteudo">
+                    <span class="tag">Tecnologia & Eventos</span>
+                    <h3>Show Rural Coopavel</h3>
+                    <p>Localizado em Cascavel, é uma das maiores feiras de tecnologia agrícola do mundo, apresentando o futuro do agro digital.</p>
+                    <span class="localizacao">📍 Cascavel - PR</span>
+                </div>
+            </div>
+
+            <div class="card" data-categoria="historico">
+                <div class="card-img pic-rota-cafe"></div>
+                <div class="card-conteudo">
+                    <span class="tag">Histórico & Rotas</span>
+                    <h3>Rota do Café</h3>
+                    <p>Um mergulho na história do "ouro verde" no Norte do Paraná. Inclui visitas a fazendas históricas e degustações de cafés especiais.</p>
+                    <span class="localizacao">📍 Londrina e Região</span>
+                </div>
+            </div>
+
+            <div class="card" data-categoria="natureza">
+                <div class="card-img pic-colonia-witmarsum"></div>
+                <div class="card-conteudo">
+                    <span class="tag">Natureza & Cooperativas</span>
+                    <h3>Colônia Witmarsum</h3>
+                    <p>Famosa pela produção de leite e queijos finos. Uma imersão na cultura alemã-meninonita com forte base no cooperativismo.</p>
+                    <span class="localizacao">📍 Palmeira - PR</span>
+                </div>
+            </div>
+
+            <div class="card" data-categoria="tecnologia">
+                <div class="card-img pic-parque-castrolanda"></div>
+                <div class="card-conteudo">
+                    <span class="tag">Tecnologia & Eventos</span>
+                    <h3>Parque Histórico de Castrolanda</h3>
+                    <p>Um dos maiores moinhos de vento fora da Holanda, celebrando a imigração e a potência da bacia leiteira da região de Castro.</p>
+                    <span class="localizacao">📍 Castro - PR</span>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroPR Turismo. Desenhado para valorizar o campo paranaense.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
